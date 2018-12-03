@@ -96,14 +96,45 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Fonts:
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Alegreya', serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Quattrocento Sans', sans-serif;*/
 
 
+.display-title {
+    font-size:3em;
+    font-family: 'Comfortaa', cursive;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+    animation-iteration-count:infinite;
+}
 
 
+   a {
+    text-decoration: none;
+    color:#FFF;
+}
 
+.nav li a{
+    transition:color .5s ease-in-out, text-shadow .5s ease-in-out;
+}
 
+.nav li a:hover {
+    color:#f4f743;
+    text-shadow: 0px 2px 3px #FFF, 0px 5px 5px #f4f743;
+}
 
+#photoDisplay {
+    margin-top:5rem;
+}
 
+#photoDisplay .card{
+    margin-top:15px;
+}
 
 
 

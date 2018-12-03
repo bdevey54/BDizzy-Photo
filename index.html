@@ -1,55 +1,102 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Brian Devey | Front-End Engineer, Fitness Trainer & Photographer</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Brian Devey | Front-End Engineer, Fitness Trainer & Photographer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
-    
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link href="css/open-iconic-bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link href="css/open-iconic-bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Comfortaa:400,700|Merriweather+Sans|Merriweather:300i|Quattrocento|Quattrocento+Sans"
+    rel="stylesheet">
 
 </head>
+
 <body>
-<!--[if lte IE 9]>
+  <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <div class="container-fluid p-0">
-  <nav class="navbar navbar-dark bg-dark bg-faded p-2 justify-content-center">
-    <span class="display-4">BDizzy Photography</span>
-    <div class="w-100"></div>
-    <ul class="nav nav-pills justify-content-center"> 
-      <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li> 
-      <li class="nav-item"> <a class="nav-link" href="#">Contact Me</a> </li> 
-      <li class="nav-item"> <a class="nav-link disabled" href="#">Client Portal</a> </li> 
-    </ul> 
-  </nav>
-</div>
-<div class="container">
-  <div class="col header-1">Test</div>
-</div>
+    <nav class="navbar navbar-dark bg-dark bg-faded p-2 justify-content-center">
+      <div class="display-title">BDizzy Photography</div>
+      <div class="w-100"></div>
+      <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Contact Me</a> </li>
+        <li class="nav-item"> <a class="nav-link disabled" href="#">Client Portal</a> </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container" id="photoDisplay">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/featured/1.jpg" alt="Card image cap">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/featured/2.jpg" alt="Card image cap">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/featured/3.jpg" alt="Card image cap">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="imgs/featured/4.jpg" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="imgs/featured/5.jpg" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="imgs/featured/6.jpg" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+  </div>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-<script>
-        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-        ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-      </script>
-      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
